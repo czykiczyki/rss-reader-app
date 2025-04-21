@@ -68,7 +68,7 @@ export const textStyles = {
     fontSize: fontSize.lg,
     lineHeight: lineHeight.lg,
   },
-  
+
   // Body text
   body1: {
     fontFamily: fontFamily.regular,
@@ -82,7 +82,7 @@ export const textStyles = {
     fontSize: fontSize.sm,
     lineHeight: lineHeight.sm,
   },
-  
+
   // Captions and smaller text
   caption: {
     fontFamily: fontFamily.regular,
@@ -90,7 +90,7 @@ export const textStyles = {
     fontSize: fontSize.xs,
     lineHeight: lineHeight.xs,
   },
-  
+
   // Button text
   button: {
     fontFamily: fontFamily.medium,
@@ -98,7 +98,7 @@ export const textStyles = {
     fontSize: fontSize.md,
     lineHeight: lineHeight.md,
   },
-  
+
   // Link text
   link: {
     fontFamily: fontFamily.regular,

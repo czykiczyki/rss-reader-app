@@ -4,7 +4,13 @@
 
 import { colors, semanticColors } from './colors';
 import { spacing } from './spacing';
-import { fontFamily, fontWeight, fontSize, lineHeight, textStyles } from './typography';
+import {
+  fontFamily,
+  fontWeight,
+  fontSize,
+  lineHeight,
+  textStyles,
+} from './typography';
 
 export const theme = {
   colors,
@@ -15,7 +21,7 @@ export const theme = {
   fontSize,
   lineHeight,
   textStyles,
-  
+
   // Global style constants
   borderRadius: {
     xs: 4,
@@ -25,7 +31,7 @@ export const theme = {
     xl: 24,
     circle: 999,
   },
-  
+
   shadow: {
     sm: {
       shadowColor: '#000',
@@ -49,7 +55,7 @@ export const theme = {
       elevation: 8,
     },
   },
-  
+
   // Animation timing
   animation: {
     fast: 200,

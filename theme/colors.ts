@@ -14,7 +14,7 @@ export const colors = {
     darker: '#1D4ED8',
     darkest: '#1E3A8A',
   },
-  
+
   // Secondary/accent colors
   accent: {
     lightest: '#FFF7ED',
@@ -25,7 +25,7 @@ export const colors = {
     darker: '#C2410C',
     darkest: '#7C2D12',
   },
-  
+
   // Success states
   success: {
     lightest: '#ECFDF5',
@@ -36,7 +36,7 @@ export const colors = {
     darker: '#047857',
     darkest: '#064E3B',
   },
-  
+
   // Warning states
   warning: {
     lightest: '#FFFBEB',
@@ -47,7 +47,7 @@ export const colors = {
     darker: '#B45309',
     darkest: '#78350F',
   },
-  
+
   // Error states
   error: {
     lightest: '#FEF2F2',
@@ -58,7 +58,7 @@ export const colors = {
     darker: '#B91C1C',
     darkest: '#7F1D1D',
   },
-  
+
   // Neutrals/Grays
   neutral: {
     white: '#FFFFFF',
@@ -72,7 +72,7 @@ export const colors = {
     darkest: '#1F2937',
     black: '#111827',
   },
-  
+
   // Transparent colors
   transparent: {
     light: 'rgba(255, 255, 255, 0.85)',

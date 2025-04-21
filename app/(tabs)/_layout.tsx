@@ -33,25 +33,29 @@ export default function TabsLayout() {
           headerTitle: 'RSS Reader',
         }}
       />
-      
+
       <Tabs.Screen
         name="feeds"
         options={{
           title: 'Feeds',
-          tabBarIcon: ({ color, size }) => <Settings color={color} size={size} />,
+          tabBarIcon: ({ color, size }) => (
+            <Settings color={color} size={size} />
+          ),
           headerTitle: 'Manage Feeds',
         }}
       />
-      
+
       <Tabs.Screen
         name="saved"
         options={{
           title: 'Saved',
-          tabBarIcon: ({ color, size }) => <Bookmark color={color} size={size} />,
+          tabBarIcon: ({ color, size }) => (
+            <Bookmark color={color} size={size} />
+          ),
           headerTitle: 'Saved Articles',
         }}
       />
-      
+
       <Tabs.Screen
         name="search"
         options={{

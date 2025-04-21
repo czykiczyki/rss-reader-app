@@ -8,5 +8,4 @@ export const spacing = {
   xxl: 48,
 };
 
-
 export default { spacing };
