@@ -2,6 +2,12 @@
 
 A simple RSS reader built with React Native and Expo, designed for iOS.
 
+
+## Demo
+
+[Watch Demo Video](https://drive.google.com/file/d/15XnPNHwsE-Y-cj6qjFv2ObwVtRJdAzCI/view?usp=sharing)
+
+
 ## Features
 
 - Add, edit and manage RSS feeds
@@ -94,4 +100,11 @@ npx expo start -c
    - Close Expo Go completely
    - Restart the development server
    - Try scanning the QR code again
+
+
+## Sample RSS Feeds
+
+Here are some example feeds you can use to test the app:
+- NASA News: https://www.nasa.gov/rss/dyn/breaking_news.rss
+- The Verge: https://www.theverge.com/rss/index.xml
 
