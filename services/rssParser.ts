@@ -19,7 +19,6 @@ export const fetchRssFeed = async (url: string): Promise<RssFeed> => {
     const response = await fetch(url);
     const text = await response.text();
     const feed = await RSSParser.parse(text);
-    console.log('feed', feed);
     return feed as RssFeed;
   } catch (error) {
     console.error('Error fetching RSS feed:', error);
