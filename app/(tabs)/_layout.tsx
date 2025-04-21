@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tabs } from 'expo-router';
-import { Rss, Search, Bookmark, Settings } from 'lucide-react-native';
+import { Rss, Bookmark, Settings } from 'lucide-react-native';
 import theme from '../../theme';
 
 export default function TabsLayout() {
@@ -56,14 +56,6 @@ export default function TabsLayout() {
         }}
       />
 
-      <Tabs.Screen
-        name="search"
-        options={{
-          title: 'Search',
-          tabBarIcon: ({ color, size }) => <Search color={color} size={size} />,
-          headerTitle: 'Search Articles',
-        }}
-      />
     </Tabs>
   );
 }
